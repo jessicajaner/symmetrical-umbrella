@@ -1,0 +1,56 @@
+body  {
+    background-image: url(assets/DSCF0065.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+    background-position: center;
+    }
+    
+    main {
+        height: 100%;
+    }
+    
+    .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    header {
+        height: 25px;
+    }
+    .nav-container {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly;
+    background-color: rgba(255,255,255,0.3);
+    /* height: 25px; */
+    align-content: center;
+    }
+    
+    
+    .main-container {
+        display: flex;
+        width: 100%;
+        flex: 1 1 66vh;
+    
+    }
+    
+    
+    .sidebar-container {
+    background-color: #01e0e9;
+    width: 30%;
+    justify-self: right;
+    padding-left: 20px;
+    }
+    
+    .sidebar-title {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    .sidebar-subtitle {
+        font-size: 40px;
+        font-weight: bold;
+    }
