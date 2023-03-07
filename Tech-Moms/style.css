@@ -1,0 +1,50 @@
+body  {
+    background-image: url(assets/DSCF0065.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    font-family:'Courier New', Courier, monospace;
+    }
+    
+    
+    .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    
+    .nav-container {
+    display: flex;
+    justify-content: center; 
+    justify-content: space-evenly
+    }
+    
+    .main-container {
+        display: flex;
+        width: 100%;
+        flex: 1 1 66vh;
+    }
+    
+    .mainimage-container {
+        background: url assets/DSC_0677.jpg
+        background-size: cover;
+        width: 100%;
+    }
+    
+    .sidebar-container {
+    background-color: #01e0e9;
+    width: 30%;
+    justify-self: right;
+    padding-left: 20px;
+    }
+    
+    .sidebar-title {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    .sidebar-subtitle {
+        font-size: 40px;
+        font-weight: bold;
+    }
