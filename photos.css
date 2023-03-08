@@ -11,6 +11,9 @@
 .mySlides {
   display: none;
 }
+.firstimage{
+    display: block;
+}
 
 /* Next & previous buttons */
 .prev, .next {

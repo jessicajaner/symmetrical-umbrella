@@ -1,13 +1,18 @@
 body  {
-    background-image: url(assets/DSCF0065.jpg);
-    background-size: cover;
+    
     display: flex;
     flex-direction: column;
-    font-family:'Courier New', Courier, monospace;
-    background-position: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+ 
     }
-    
-    main {
+    .homepage {
+        background-image: url(assets/DSCF0065.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .cancun {
         height: 100%;
     }
     
@@ -20,6 +25,7 @@ body  {
     header {
         height: 25px;
     }
+
     .nav-container {
     display: flex;
     justify-content: center; 
@@ -28,8 +34,27 @@ body  {
     /* height: 25px; */
     align-content: center;
     }
-    
-    
+    .container {
+position: bottom;
+text-align: center;
+color: papayawhip;
+font-family: Rammetto One;
+        font-size: 55px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;  
+    }
+   
+
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
     .main-container {
         display: flex;
         width: 100%;
