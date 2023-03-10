@@ -15,6 +15,11 @@
     display: block;
 }
 
+.mySlides img {
+    object-fit: cover;
+    height: 700px;
+    width: 400px;
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -45,7 +50,7 @@
 /* Caption text */
 .text {
   color: #f2f2f2;
-  font-size: 15px;
+  font-size: 18px;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;

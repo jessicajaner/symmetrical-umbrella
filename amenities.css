@@ -1,0 +1,11 @@
+.amenitylist {
+
+    align-items: center;
+    /* padding-top: 45px; */
+    /* padding-left: 500; */
+    background-image: url(assets/highlights/DSCF0037.jpg);
+    background-size: cover;
+    background-position: 20% 15%;
+    /* font-weight: 600; */
+}
+
